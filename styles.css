@@ -12,6 +12,7 @@
   --ethereum-text: #1181e8;
   --litecoin-text: #59c19c;
   --coins-over-box: #2b076e;
+  --sub-text-clr2: #8d8d8d;
   --sub-text-clr: #bdbdbd;
   /* FONT SIZES */
   --ff-l: 4rem;
@@ -50,9 +51,9 @@ html {
 
   scroll-behavior: smooth;
   scroll-behavior: smooth var(--ease-out-quad);
-  scroll-snap-type: y mandatory;
+  /* scroll-snap-type: y mandatory;
   scroll-snap-align: center;
-  scroll-snap-stop: always;
+  scroll-snap-stop: always; */
 }
 
 body {
@@ -60,6 +61,7 @@ body {
   color: var(--main-text-color);
   font-family: "Rubik", sans-serif;
   font-size: var(--ff-xsm);
+  overflow-x: hidden;
 }
 
 button {
@@ -122,8 +124,9 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  z-index: 1;
 }
 
 .navSecBg {
@@ -132,7 +135,7 @@ nav {
 }
 
 main {
-  margin-top: 13rem;
+  margin-top: 9rem;
 }
 
 .link-btns,
@@ -227,6 +230,11 @@ ul li:hover {
   padding-bottom: 12px;
 }
 
+.hero-sec-details-btn button.change.pri-btn:hover .try {
+  background-color: var(--main-text-color);
+  color: var(--heading-text);
+}
+
 .hero-sec-details-btn button i {
   background-color: var(--main-text-color);
   border: 1px solid var(--heading-text);
@@ -267,7 +275,7 @@ ul li:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   place-items: center center;
-  margin-top: 3rem;
+  margin-top: 4.5rem;
 }
 
 .digital,
@@ -303,3 +311,288 @@ ul li:hover {
 }
 
 /* MILESTONE SECTION */
+
+/* WHY */
+
+.why {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center center;
+  gap: 4rem;
+  margin-top: 5rem;
+}
+
+.why img {
+  width: 90%;
+}
+
+.why-container {
+  position: relative;
+}
+
+.why-accent-img {
+  position: absolute;
+  right: -30%;
+}
+
+.why-accent-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  gap: 10rem;
+}
+
+.why-accent-img img {
+  width: 40%;
+}
+
+.why-details h2 {
+  font-size: var(--ff-m);
+  line-height: 3.75rem;
+  font-weight: var(--fw-b);
+  margin-bottom: 1rem;
+}
+
+.why-details p {
+  margin-bottom: 1.5rem;
+  width: 70%;
+  line-height: var(--text-height-l);
+}
+
+/* WHY */
+
+/* EARN */
+.earn {
+  margin-top: 7rem;
+}
+
+.earn .first-child {
+  margin-bottom: 10rem;
+}
+
+.earn .first-child > h3 {
+  font-size: var(--ff-m);
+  line-height: 3.75rem;
+  font-weight: var(--fw-b);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.earn .first-child > p {
+  text-align: center;
+  margin: auto;
+  width: 60%;
+  font-size: var(--ff-xsm);
+  line-height: var(--text-height-l);
+}
+
+.hash-rate {
+  position: absolute;
+  bottom: 75%;
+  left: 17%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 12px;
+  width: 68%;
+  margin: auto;
+  margin-top: 6rem;
+  background-color: var(--main-text-color);
+  color: #000;
+}
+
+.hash-rate-header {
+  padding: 2.5rem 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hash-rate-details {
+  padding: 2.5rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: flex-start;
+}
+
+.hash-rate-details span {
+  font-weight: var(--fw-m);
+  font-size: var(--ff-sm);
+  color: var(--heading-text);
+  line-height: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.hash-rate-details h3,
+.hash-rate-details h3 span {
+  letter-spacing: 0.64px;
+  font-weight: var(--fw-b);
+  line-height: 3rem;
+  font-size: 2rem;
+  padding-bottom: 0.6rem;
+}
+
+.hash-rate-details p {
+  color: var(--sub-text-clr2);
+  padding-bottom: 0.6rem;
+}
+
+.hash-rate-header input {
+  width: 403px;
+  height: 38px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid var(--sub-text-clr);
+  font-family: "Rubik", sans-serif;
+  font-size: var(--ff-sm);
+}
+
+.hash-rate-header input::placeholder {
+  font-family: "Rubik", sans-serif;
+  font-size: var(--ff-sm);
+}
+
+.hash-rate-header select {
+  display: block;
+  width: 200px;
+  height: 38px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid var(--sub-text-clr);
+  background-color: transparent;
+  font-family: "Rubik", sans-serif;
+  font-size: var(--ff-sm);
+}
+
+.hash-rate-crypto-opt {
+  height: 160vh;
+  background-color: #e8e8e8;
+  position: relative;
+}
+
+.trade-securely {
+  padding-top: 22rem;
+}
+
+.trade-securely h3 {
+  width: 60%;
+  margin: auto;
+  color: #01010a;
+  font-size: var(--ff-m);
+  line-height: 3.75rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.coins {
+  margin-top: 3rem;
+  display: grid;
+  place-items: center center;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.coin {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 370px;
+  height: 480px;
+  padding: 48px 24px;
+  background-color: var(--main-text-color);
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.coin:hover {
+  background-color: var(--coins-over-box);
+}
+
+.coin .btc {
+  background-color: var(--bitcoin-text);
+  padding: 14.5px 20px;
+  border-radius: 50%;
+}
+
+.coin img {
+  margin-bottom: 3rem;
+}
+
+.coin:nth-child(1) > span {
+  font-size: 2rem;
+  font-weight: var(--fw-m);
+  color: var(--bitcoin-text);
+}
+.coin:nth-child(2) > span {
+  font-size: 2rem;
+  font-weight: var(--fw-m);
+  color: var(--ethereum-text);
+}
+.coin:nth-child(3) > span {
+  font-size: 2rem;
+  font-weight: var(--fw-m);
+  color: var(--litecoin-text);
+}
+
+.coin span > sup {
+  font-size: var(--ff-x-sm);
+  color: var(--sub-text-clr2);
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+
+.coin p {
+  color: var(--sub-text-clr2);
+  margin-top: 16px;
+  margin-bottom: 24px;
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+
+.coin > div > span {
+  display: none;
+}
+
+.coin:hover > div > span {
+  display: block;
+}
+
+.coin > div {
+  margin-top: 2.5rem;
+  color: var(--heading-text);
+  border: 1px solid var(--sub-text-clr2);
+  border-radius: 50%;
+}
+
+.coin:hover > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 10px 24px;
+  border: 1px solid var(--heading-text);
+  border-radius: 32px;
+  background-color: var(--heading-text);
+  color: var(--main-text-color);
+  font-size: var(--ff-xsm);
+  line-height: var(--text-height-l);
+  font-weight: var(--fw-m);
+  cursor: pointer;
+  letter-spacing: 0.01rem;
+}
+
+.coin > div > i {
+  font-size: 3.5rem;
+}
+
+.coin:hover > div > i {
+  color: var(--heading-text);
+  background-color: var(--main-text-color);
+  border-radius: 50%;
+  font-size: 1.8rem;
+}
+
+/* EARN */
