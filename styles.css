@@ -1,0 +1,235 @@
+/* GOOGLE FONT */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,800;0,900;1,600&display=swap");
+
+/* ROOT */
+:root {
+  /* COLORS */
+  --main-theme: #0d0d2b;
+  --alt-main-theme: #2b076e;
+  --heading-text: #3671e9;
+  --main-text-color: #fbfcfe;
+  --bitcoin-text: #f89c2c;
+  --ethereum-text: #1181e8;
+  --litecoin-text: #59c19c;
+  --coins-over-box: #2b076e;
+  --sub-text-clr: #bdbdbd;
+  /* FONT SIZES */
+  --ff-l: 4rem;
+  --ff-m: 2.5rem;
+  --ff-sm: 1.25rem;
+  --ff-x-sm: 1.125rem;
+  --ff-xsm: 1rem;
+
+  /* FONT WEIGHTS */
+  --fw-b: 700;
+  --fw-m: 500;
+  --fw-sm: 400;
+
+  /* LINE HEIGHT */
+  --text-height-xl: 4.75rem;
+  --text-height-l: 1.75rem;
+  --text-height-m: 1.5rem;
+  --line-height-sm: 1.6875rem;
+
+  /* LETTER SPACING */
+  --ls-h: 0.64px;
+}
+
+/* INIT */
+
+::after,
+::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--main-theme);
+  color: var(--main-text-color);
+  font-family: "Rubik", sans-serif;
+  font-size: var(--ff-xsm);
+}
+
+button {
+  font-family: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container-pd {
+  padding: 2rem 5rem;
+}
+
+.sec-btn,
+.pri-btn {
+  padding: 8px 24px;
+  border: 1px solid var(--heading-text);
+  border-radius: 32px;
+  background-color: var(--heading-text);
+  color: var(--main-text-color);
+  font-size: var(--ff-xsm);
+  line-height: var(--text-height-l);
+  font-weight: var(--fw-m);
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: 0.01rem;
+}
+
+.pri-btn:hover {
+  background-color: var(--main-text-color);
+  color: var(--heading-text);
+}
+
+.sec-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-weight: normal;
+}
+
+.sec-btn:focus {
+  outline: 0.5px solid var(--heading-text);
+}
+
+/* INIT */
+
+/* NAV */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link-btns,
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  cursor: pointer;
+}
+
+ul li:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn .line {
+  width: 2px;
+  background-color: var(--main-text-color);
+  height: 30px;
+  margin-right: 1.5rem;
+}
+
+/* NAV */
+
+/* MAIN */
+
+/* HERO SECTION */
+.hero {
+  background: rgb(13, 13, 43);
+  background: -moz-linear-gradient(
+    146deg,
+    rgba(13, 13, 43, 1) 68%,
+    rgba(189, 189, 189, 0.1) 73%,
+    rgba(13, 13, 43, 1) 80%,
+    rgba(111, 111, 124, 0.1) 84%,
+    rgba(13, 13, 43, 1) 91%
+  );
+  background: -webkit-linear-gradient(
+    146deg,
+    rgba(13, 13, 43, 1) 68%,
+    rgba(189, 189, 189, 0.1) 73%,
+    rgba(13, 13, 43, 1) 80%,
+    rgba(111, 111, 124, 0.1) 84%,
+    rgba(13, 13, 43, 1) 91%
+  );
+  background: linear-gradient(
+    146deg,
+    rgba(13, 13, 43, 1) 68%,
+    rgba(189, 189, 189, 0.1) 73%,
+    rgba(13, 13, 43, 1) 80%,
+    rgba(111, 111, 124, 0.2) 84%,
+    rgba(13, 13, 43, 1) 91%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0d0d2b",endColorstr="#0d0d2b",GradientType=1);
+  display: grid;
+  grid-template-columns: 50% 45%;
+  place-items: center center;
+  gap: 3rem;
+}
+
+.hero .hero-sec-image img {
+  width: 100%;
+}
+
+.hero-sec-details-btn h1 {
+  min-width: auto;
+  font-size: var(--ff-l);
+  font-weight: var(--fw-b);
+  line-height: var(--text-height-xl);
+}
+
+.hero-sec-details-btn p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 70%;
+  font-size: var(--ff-xsm);
+  line-height: var(--text-height-l);
+}
+
+.hero-sec-details-btn button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.hero-sec-details-btn button i {
+  background-color: var(--main-text-color);
+  border: 1px solid var(--heading-text);
+  border-radius: 50%;
+  padding: 8px;
+  color: var(--heading-text);
+}
+
+.hero-slide-btn {
+  background-color: #ffffff43;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 8px 10px;
+  width: 65%;
+  margin-bottom: 0.5rem;
+}
+
+.hero-slide-btn span:first-of-type {
+  background-color: var(--main-text-color);
+  color: var(--main-theme);
+  padding: 2px 15px;
+  border-radius: 150px;
+  margin-right: 1.5rem;
+}
+
+.pri-btn:hover span:first-of-type {
+  background-color: var(--heading-text);
+  color: var(--main-text-color);
+}
