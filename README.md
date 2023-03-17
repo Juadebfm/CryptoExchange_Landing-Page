@@ -1,9 +1,9 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Crypto CRAPPO" />
+  <img src="./" alt="Crypto CRAPPO" />
 
 &#xa0;
 
-<a href="https://crappo-cryypto.netlify.app">Live Demo</a>
+<a href="https://crappohome.netlify.app/">Live Demo</a>
 
 </div>
 
