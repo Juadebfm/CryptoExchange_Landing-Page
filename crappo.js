@@ -13,7 +13,7 @@ const logo = document.getElementById("logo");
 logo.addEventListener("click", (event) => {
   event.preventDefault();
   const scrollToTop = window.setInterval(() => {
-    const pos = window.pageYOffset;
+    const pos = window.scrollY;
     if (pos > 0) {
       window.scrollTo(0, pos - 50);
     } else {
