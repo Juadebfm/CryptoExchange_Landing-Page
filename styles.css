@@ -596,3 +596,176 @@ ul li:hover {
 }
 
 /* EARN */
+
+/* MARKET SENTIMENT */
+.market-sentiments {
+  background-color: rgb(43, 7, 110);
+  padding: 2rem 4.5rem;
+}
+
+.market-sentiment-sect > h3 {
+  width: 60%;
+  margin: auto;
+  color: var(--main-text-color);
+  font-size: var(--ff-m);
+  line-height: 3.75rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.invest-smart,
+.detailed-stats,
+.profit-track {
+  margin-top: 9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detailed-stats {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 5rem;
+}
+
+.invest-smart-details,
+.invest-smart-image,
+.detailed-stats-details,
+.detailed-stats-image,
+.profit-track-image .profit-track-details {
+  flex: 1;
+  flex-basis: 50%;
+}
+
+.invest-smart-details p,
+.detailed-stats-details p,
+.profit-track-details p {
+  width: 67%;
+  font-size: var(--ff-xsm);
+  line-height: var(--text-height-l);
+}
+
+.invest-smart-details h3,
+.detailed-stats-details h3,
+.profit-track-details h3 {
+  width: 100%;
+  color: var(--main-text-color);
+  font-size: var(--ff-m);
+  line-height: 3.75rem;
+  font-weight: 500;
+  text-align: start;
+  margin-bottom: 1rem;
+}
+
+.invest-smart-details button,
+.detailed-stats-details button,
+.profit-track-details button {
+  margin-top: 1.5rem;
+}
+
+.detailed-stats-image,
+.invest-smart-image {
+  width: 85%;
+}
+
+.profit-track-image {
+  width: 100%;
+  height: 100%;
+}
+
+.detailed-stats-image img,
+.invest-smart-image img {
+  width: 100%;
+}
+
+.profit-track-image img {
+  width: 100%;
+  height: 100%;
+  place-self: end;
+}
+
+/* MARKET SENTIMENT */
+
+/* CTA */
+
+.CTA {
+  background-color: var(--coins-over-box);
+  height: 50vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center center;
+}
+
+.call-to-action {
+  position: relative;
+  background-color: var(--ethereum-text);
+  width: 100%;
+  padding: 3rem 3rem;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.call-to-action img:nth-child(1) {
+  position: absolute;
+  z-index: 1;
+  top: 1%;
+}
+
+.call-to-action img:nth-child(2) {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  z-index: 1;
+}
+
+.call-to-action h3 {
+  width: 100%;
+  color: var(--main-text-color);
+  font-size: var(--ff-m);
+  line-height: 3.75rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.call-to-action p {
+  width: 70%;
+}
+
+.call-to-action input {
+  width: 403px;
+  height: 38px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 1px solid var(--sub-text-clr);
+  font-family: "Rubik", sans-serif;
+  color: var(--main-text-color);
+  font-size: var(--ff-sm);
+  margin-right: 15px;
+}
+
+.call-to-action input::placeholder {
+  font-family: "Rubik", sans-serif;
+  font-size: var(--ff-sm);
+  color: var(--main-text-color);
+}
+
+.call-to-action button {
+  font-size: var(--ff-sm);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: var(--main-text-color);
+  color: var(--main-theme);
+  border: 1px solid var(--main-text-color);
+}
+
+.call-to-action button:hover {
+  background-color: var(--main-theme);
+  color: var(--main-text-color);
+}
+
+/* CTA */
