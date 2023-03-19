@@ -402,10 +402,28 @@ ul li:hover {
 }
 
 .hash-rate-header {
+  position: relative;
   padding: 2.5rem 3.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+#success-message {
+  display: none;
+  position: absolute;
+  padding: 1rem 1.5rem;
+  left: 30%;
+  top: -25%;
+
+  background-color: var(--sub-text-clr2);
+  color: var(--main-text-color);
+}
+
+.hash-rate-header [for="hash rate"] #error-message {
+  color: var(--bitcoin-text);
+  font-size: 13px;
+  margin-top: 10px;
 }
 
 .hash-rate-details {

@@ -36,7 +36,27 @@ logo.addEventListener("click", (event) => {
 
 //form validation
 const form = document.getElementById("form");
-const submit = document.getElementById("submit")
+const submit = document.getElementById("submit");
+const errMsg = document.getElementById("error-message");
 
+form.addEventListener("submit", (event) => {
+  event.preventDefault(); // prevent form submission
 
+  const input = document.getElementById("email").value;
 
+  if (input == "") {
+    errMsg.innerHTML = "Please enter a valid email address.";
+  } else {
+    errMsg.innerHTML = "";
+    submit.disabled = true;
+    submit.innerText = "Please Wait...";
+    setTimeout(() => {
+      const sucMsg = (document.getElementById("success-message").style.display =
+        "block");
+      submit.innerText = "Submit";
+      setTimeout(() => {
+        window.location.reload(true);
+      }, 3000);
+    }, 2000);
+  }
+});

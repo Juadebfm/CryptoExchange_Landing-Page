@@ -131,20 +131,23 @@
         <div class="hash-rate-crypto-opt">
           <div class="hash-rate">
             <form class="hash-rate-header" id="form">
+              <div id="success-message">
+                Thank you! Your submission has been received
+              </div>
               <label for="hash rate">
                 <input
                   type="email"
                   id="email"
                   placeholder="Enter your hash rate"
-                  required
                 />
+                <p id="error-message"></p>
               </label>
               <label for="hash rate type">
                 <select name="hash rate list" id="">
                   <option value="">TH/s</option>
                 </select>
               </label>
-              <button class="pri-btn" type="submit" id="submit">Calculate</button>
+              <button class="pri-btn" type="submit" id="submit">Submit</button>
             </form>
             <div class="hash-rate-details">
               <span>ESTIMATED 24 HOUR REVENUE:</span>
