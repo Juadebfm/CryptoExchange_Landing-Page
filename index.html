@@ -130,17 +130,22 @@
 
         <div class="hash-rate-crypto-opt">
           <div class="hash-rate">
-            <div class="hash-rate-header">
+            <form class="hash-rate-header" id="form">
               <label for="hash rate">
-                <input type="text" placeholder="Enter your hash rate" />
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Enter your hash rate"
+                  required
+                />
               </label>
               <label for="hash rate type">
                 <select name="hash rate list" id="">
                   <option value="">TH/s</option>
                 </select>
               </label>
-              <button class="pri-btn">Calculate</button>
-            </div>
+              <button class="pri-btn" type="submit" id="submit">Calculate</button>
+            </form>
             <div class="hash-rate-details">
               <span>ESTIMATED 24 HOUR REVENUE:</span>
               <h3>0.055 130 59 ETH <span>($1275)</span></h3>
@@ -274,7 +279,7 @@
     <footer>
       <section class="footer-details">
         <div class="footer-logo">
-          <img src="./images/Logo.png" alt="" id="logo"/>
+          <img src="./images/Logo.png" alt="" id="logo" />
         </div>
         <div class="footer-quick-links">
           <ul>

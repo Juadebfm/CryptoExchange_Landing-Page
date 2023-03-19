@@ -1,3 +1,4 @@
+// changing header background color on scroll
 let navSec = document.getElementById("navSec");
 
 window.addEventListener("scroll", () => {
@@ -8,6 +9,17 @@ window.addEventListener("scroll", () => {
   }
 });
 
+// const logo = document.getElementById('logo');
+
+// logo.addEventListener('click', (event) => {
+//   event.preventDefault();
+//   window.scrollTo({
+//     top: 0,
+//     behavior: 'smooth'
+//   });
+// });
+
+// creating a scroll to top effect
 const logo = document.getElementById("logo");
 
 logo.addEventListener("click", (event) => {
@@ -21,3 +33,10 @@ logo.addEventListener("click", (event) => {
     }
   }, 16);
 });
+
+//form validation
+const form = document.getElementById("form");
+const submit = document.getElementById("submit")
+
+
+
