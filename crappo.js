@@ -9,16 +9,6 @@ window.addEventListener("scroll", () => {
   }
 });
 
-// const logo = document.getElementById('logo');
-
-// logo.addEventListener('click', (event) => {
-//   event.preventDefault();
-//   window.scrollTo({
-//     top: 0,
-//     behavior: 'smooth'
-//   });
-// });
-
 // creating a scroll to top effect
 const logo = document.getElementById("logo");
 
