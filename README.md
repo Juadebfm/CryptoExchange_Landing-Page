@@ -57,7 +57,7 @@ The following tools were used in this project:
 
 ## :white_check_mark: Requirements
 
-Before starting :checkered_flag:, you need to have an basic [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) and [CSS Preprocessors](https://developer.mozilla.org/en-US/docs/Glossary/CSS_preprocessor) installed.
+Before starting :checkered_flag:, you need to have a basic understanding of [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) and [CSS](https://developer.mozilla.org/en-US/docs/Glossary/CSS).
 
 ## :checkered_flag: Starting
 
@@ -68,15 +68,12 @@ $ git clone https://github.com/Juadebfm/CryptoExchange_Landing-Page
 # Access
 $ cd crypto-crappo
 
-# Install dependencies
+# Go live
 Run your local dev env (Live Server )
 
-# The server will initialize in the < http://127.0.0.1:5502/index.html>
 ```
 
-## :memo: License
-
-Made by <a href="https://github.com/MideAyo" target="_blank">Mide Ayo</a>
+Made by <a href="https://github.com/Juadebfm" target="_blank">Juadeb Gabriel</a>
 
 &#xa0;
 
