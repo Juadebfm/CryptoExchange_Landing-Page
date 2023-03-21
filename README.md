@@ -1,6 +1,4 @@
 <div align="center" id="top"> 
-  <img src="./" alt="Crypto CRAPPO" />
-
 &#xa0;
 
 <a href="https://crappohome.netlify.app/">Live Demo</a>
@@ -10,19 +8,19 @@
 <h1 align="center">CRAPPO</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/MideAyo/crypto-crappo?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/Juadebfm/CryptoExchange_Landing-Page?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/MideAyo/crypto-crappo?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/Juadebfm/CryptoExchange_Landing-Page?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/MideAyo/crypto-crappo?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Juadebfm/CryptoExchange_Landing-Page?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/MideAyo/crypto-crappo?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/Juadebfm/CryptoExchange_Landing-Page?color=56BEB8">
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/MideAyo/crypto-crappo?color=56BEB8" /> -->
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/Juadebfm/CryptoExchange_Landing-Page?color=56BEB8" /> -->
 
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/MideAyo/crypto-crappo?color=56BEB8" /> -->
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/Juadebfm/CryptoExchange_Landing-Page?color=56BEB8" /> -->
 
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/MideAyo/crypto-crappo?color=56BEB8" /> -->
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/Juadebfm/CryptoExchange_Landing-Page?color=56BEB8" /> -->
 </p>
 
 <!-- Status -->
@@ -72,7 +70,7 @@ Before starting :checkered_flag:, you need to have an basic [Javascript](https:/
 
 ```bash
 # Clone this project
-$ git clone https://github.com/MideAyo/crypto-crappo
+$ git clone https://github.com/Juadebfm/CryptoExchange_Landing-Page
 
 # Access
 $ cd crypto-crappo
