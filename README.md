@@ -15,12 +15,6 @@
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/Juadebfm/CryptoExchange_Landing-Page?color=56BEB8">
 
   <img alt="License" src="https://img.shields.io/github/license/Juadebfm/CryptoExchange_Landing-Page?color=56BEB8">
-
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/Juadebfm/CryptoExchange_Landing-Page?color=56BEB8" /> -->
-
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/Juadebfm/CryptoExchange_Landing-Page?color=56BEB8" /> -->
-
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/Juadebfm/CryptoExchange_Landing-Page?color=56BEB8" /> -->
 </p>
 
 <!-- Status -->
@@ -58,8 +52,7 @@ Landing page for a crypto currency trading website... smooth and responsive
 The following tools were used in this project:
 
 - [AOS-Animation](https://michalsnik.github.io/aos/)
-- [SCSS](https://developer.mozilla.org/en-US/docs/Glossary/CSS_preprocessor)
-- [LESS](https://developer.mozilla.org/en-US/docs/Glossary/CSS_preprocessor)
+- [CSS](https://developer.mozilla.org/en-US/docs/Glossary/CSS)
 - [Vanilla JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ## :white_check_mark: Requirements

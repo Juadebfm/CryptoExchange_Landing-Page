@@ -14,6 +14,9 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+
+    <!-- AOS ANIMATION LIBRARY -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <!-- NAV SECTION -->
@@ -168,7 +171,7 @@
               Trade securely and market the high growth crypto currencies.
             </h3>
             <div class="coins">
-              <div class="coin">
+              <div class="coin" data-aos="fade-up" data-aos-duration="3000">
                 <img class="btc" src="./images/bitcoin.png" alt="" />
                 <span>Bitcoin<sup>BTC</sup></span>
                 <p>
@@ -178,7 +181,7 @@
                   <span>Start mining</span><i class="bx bx-chevron-right"></i>
                 </div>
               </div>
-              <div class="coin">
+              <div class="coin" data-aos="fade-up" data-aos-duration="2500">
                 <img src="./images/eth-Icon (1).png" alt="" />
                 <span>Etherum<sup>Eth</sup></span>
                 <p>
@@ -188,7 +191,7 @@
                   <span>Start mining</span><i class="bx bx-chevron-right"></i>
                 </div>
               </div>
-              <div class="coin">
+              <div class="coin" data-aos="fade-up" data-aos-duration="2000">
                 <img src="./images/ltc.png" alt="" />
                 <span>Litecoin<sup>Ltc</sup></span>
                 <p>
@@ -330,6 +333,10 @@
 
     <!-- FOOTER SECTION -->
 
+    <!-- INITALIZE AOS -->
+    <script>
+      AOS.init();
+    </script>
     <script src="./crappo.js"></script>
   </body>
 </html>
