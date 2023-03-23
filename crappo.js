@@ -21,7 +21,7 @@ logo.addEventListener("click", (event) => {
     } else {
       window.clearInterval(scrollToTop);
     }
-  }, 16);
+  }, 50);
 });
 
 //form validation
